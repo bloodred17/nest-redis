@@ -1,0 +1,30 @@
+{
+  "name": "nest-redis",
+  "version": "1.0.0",
+  "description": "Redis package module for nestjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": {
+    "name": "bloodred17",
+    "email": "ankur.611@gmail.com",
+    "url": "ankurdutta.me"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "redis": ">= 4.x < 5"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.3.9",
+    "@types/node": "^18.14.6",
+    "rimraf": "^4.4.0",
+    "rxjs": "^7.8.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "prettier": "2.8.4"
+  }
+}
