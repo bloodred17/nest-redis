@@ -2,8 +2,8 @@
   "name": "nest-redis",
   "version": "1.0.0",
   "description": "Redis package module for nestjs",
-  "main": "index.js",
   "scripts": {
+    "test" : "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist && tsc",
     "prepublish": "npm run build"
   },
@@ -13,7 +13,11 @@
     "email": "ankur.611@gmail.com",
     "url": "ankurdutta.me"
   },
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bloodred17/nest-redis.git"
+  },
+  "license": "MIT",
   "peerDependencies": {
     "redis": ">= 4.x < 5"
   },
@@ -26,5 +30,8 @@
   },
   "devDependencies": {
     "prettier": "2.8.4"
+  },
+  "engines": {
+    "node": ">=16.14"
   }
 }
